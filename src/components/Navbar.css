@@ -1,0 +1,136 @@
+.Img{
+    height: 15%;
+    width: 10%;
+  }
+  .navbar-brand{
+      font-size: x-large;
+      font-family:'Waylimo';
+    }
+  .nav-item{
+    margin-left: 40px;
+    color: black;
+    transition: 1s;
+  }
+  .nav-link{
+    font-family: 'SFPRODISPLAYMEDIUM';
+  }
+  .navbar{
+    padding: 0%;
+  }
+  #list{
+    margin-left: 40%;
+  }
+  .nav-item:hover{
+    background-color: rgba(105, 109, 108, 0.466);
+    border-radius: 5rem;
+    transition: 1s;
+  }
+  @font-face {
+      font-family: 'Waylimo';
+      src: local('Waylimo'), url('../fonts/Waylimo.ttf'), format('ttf');
+      font-weight: bold;
+      font-style: normal;
+  }
+  @font-face {
+    font-family: 'SFPRODISPLAYMEDIUM';
+    src: local('SFPRODISPLAYMEDIUM'), url('../fonts/SFPRODISPLAYMEDIUM.OTF'), format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @media screen and (max-width : 320px) {
+    .Img{
+      height: 20%;
+      width: 15%;
+    }
+    .nav-item:hover{
+      background-color: rgba(105, 109, 108, 0.466);
+      border-radius: 1rem;
+      transition: 1s;
+    }
+    .nav-item{
+      justify-content: center;
+      margin-left: 0%;
+      color: black;
+      display: flex;
+      transition: 1s;
+    }
+  }
+  @media screen and (max-width : 480px) {
+    .Img{
+      height: 35%;
+      width: 25%;
+    }
+    .nav-item:hover{
+      background-color: rgba(105, 109, 108, 0.466);
+      border-radius: 1rem;
+      transition: 1s;
+    }
+    .nav-item{
+      justify-content: center;
+      color: black;
+      display: flex;
+      margin-left: 0%;
+      transition: 1s;
+    }
+    #list{
+      margin-left: 0%;
+    }
+    .navbar-brand{
+      font-size:large;
+      font-family:'Waylimo';
+      width: 75%;
+    }
+  }
+  @media screen and (max-width : 760px) {
+    .Img{
+      height: 25%;
+      width: 20%;
+    }
+    .nav-item:hover{
+      background-color: rgba(105, 109, 108, 0.466);
+      border-radius: 1rem;
+      transition: 1s;
+    }
+    .nav-item{
+      justify-content: center;
+      color: black;
+      display: flex;
+      transition: 1s;
+      margin-left: 0%;
+
+    }
+    #list{
+      margin-left: 0%;
+    }
+    .navbar-brand{
+      font-size:large;
+      font-family:'Waylimo';
+      width: 70%;
+    }
+  }
+  @media screen and (max-width : 1024px) {
+  
+    .nav-item:hover{
+      background-color: rgba(105, 109, 108, 0.466);
+      border-radius: 1rem;
+      transition: 1s;
+    }
+    #list{
+      margin-left: 0%;
+    }
+    .nav-item{
+      justify-content: center;
+      color: black;
+      display: flex;
+      transition: 1s;
+      margin-left: 5px;
+    }
+    #list{
+      margin-left: 55%;
+    }
+    .navbar-brand{
+      font-size:large;
+      font-family:'Waylimo';
+      width: 40%;
+    }
+  }

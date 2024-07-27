@@ -1,0 +1,25 @@
+.image-slider {
+    position: relative;
+  }
+  
+  .fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-in-out; /* Adjust duration and timing function as needed */
+  }
+  
+  .fade-out {
+    opacity: 1;
+  }
+#Im{
+  width: 100vw;
+  height: 100vh;
+  }
+@media screen and (width : 320px ){
+  #Im{
+   /*  width: 100vw;
+    height: 100vh; */
+    display: flex;
+    
+    }
+}
+  

@@ -1,0 +1,204 @@
+.Conl{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit:fill;
+}
+.container{
+    position: relative;
+}
+.bt{
+    border: 1px dashed white;
+    border-width: 2px;
+    width: 10rem;
+    height: 5vh;
+    border-radius: 2rem;
+    color: white;
+    background-color: transparent;
+    font-size:large;
+    font-style: italic;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-family:'Sign Writing';
+    transition: color 0.3s ease;
+}
+.Im{
+    width: 15rem;
+    padding-top: 2%;
+}
+h4{
+    padding-left: 5%;
+    margin-top: 8%;
+    font-size:3vw;
+    font-family:'Waylimo';
+    color: white;
+}
+.bt:hover{
+    background-color: white;
+    color: black;
+}
+.bt::after{
+    content: " »";
+}
+@font-face {
+    font-family: 'Waylimo';
+    src: local('Waylimo'), url('../fonts/Waylimo.ttf'), format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sign Writing';
+    src: local('Sign Writing'), url('../fonts/Sign\ Writing.otf'), format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (max-width : 2560px) {
+    h4{
+        padding-left: 1%;
+        margin-top: 4%;
+        font-size:5vw;
+        font-family:'Waylimo';
+        color: white;
+    }
+    .bt{
+        border: 1px dashed white;
+        border-width: 2px;
+        width: 10%;
+        height: 5vh;
+        color: white;
+        background-color: transparent;
+        font-size:larger;
+        font-style: italic;
+        margin-left: 5%;
+        margin-top: 1%;
+        font-family:'Sign Writing';
+    }
+    .bt:hover{
+        background-color: white;
+        color: black;
+    }
+    .Im{
+        width: 13rem;
+        padding-top: 3%;
+    }     
+}
+@media screen and (max-width : 1024px) {
+    h4{
+        padding-left: 5%;
+        margin-top: 5%;
+        font-size:5vw;
+        font-family:'Waylimo';
+        color: white;
+    }
+    .bt{
+        border: 1px dashed white;
+        border-width: 2px;
+        width: 15%;
+        height: 5vh;
+        color: white;
+        background-color: transparent;
+        font-size:large;
+        font-style: italic;
+        margin-left: 5%;
+        margin-top: 1%;
+        font-family:'Sign Writing';
+    }
+    .bt:hover{
+        background-color: white;
+        color: black;
+    }
+    .Im{
+        width: 12rem;
+        padding-top: 5%;
+    }     
+}
+@media screen and (max-width : 780px) {
+    h4{
+        padding-left: 5%;
+        margin-top: 10%;
+        font-size:10vw;
+        font-family:'Waylimo';
+        color: white;
+    }
+    .bt{
+        border: 1px dashed white;
+        border-width: 2px;
+        width: 15%;
+        height: 5vh;
+        color: white;
+        background-color: transparent;
+        font-size:large;
+        font-style: italic;
+        margin-left: 5%;
+        margin-top: 1%;
+        font-family:'Sign Writing';
+    }
+    .bt:hover{
+        background-color: white;
+        color: black;
+    }
+    .Im{
+        width: 15rem;
+        padding-top: 10%;
+    }     
+}
+@media screen and (max-width : 480px) {
+    h4{
+        padding-left: 5%;
+        margin-top: 20%;
+        font-size:10vw;
+        font-family:'Waylimo';
+        color: white;
+    }
+    .bt{
+        border: 1px dashed white;
+        border-width: 2px;
+        width: 35%;
+        height: 5vh;
+        color: white;
+        background-color: transparent;
+        font-size:large;
+        font-style: italic;
+        margin-left: 5%;
+        margin-top: 1%;
+        font-family:'Sign Writing';
+    }
+    .bt:hover{
+        background-color: white;
+        color: black;
+    }
+    .Im{
+        width: 10rem;
+        padding-top: 25%;
+    }     
+}
+@media screen and (max-width : 320px) {
+    h4{
+        padding-left: 5%;
+        margin-top: 27%;
+        font-size:8vw;
+        font-family:'Waylimo';
+        color: white;
+    }
+    .bt{
+        border: 1px dashed white;
+        border-width: 2px;
+        width: 35%;
+        height: 5vh;
+        color: white;
+        background-color: transparent;
+        font-size:large;
+        font-style: italic;
+        margin-left: 5%;
+        margin-top: 1%;
+        font-family:'Sign Writing';
+    }
+    .bt:hover{
+        background-color: white;
+        color: black;
+    }
+    .Im{
+        width: 10rem;
+        padding-top: 10%;
+    }     
+}

@@ -1,0 +1,318 @@
+.Video{
+    height: 65vh;
+    width: 100vw;
+    object-fit: fill;
+    opacity: 0.85;
+}
+
+.Contact {
+    border: 1px solid;
+    border-radius: 1rem;
+    box-shadow: 20px 18px 18px 3px rgb(201, 201, 201);
+    background-color: #FFF4E4;
+}
+#TR{
+    height: 5rem;
+    width: 5%;
+    font-family:'SFPRODISPLAYMEDIUM';
+    font-size: large;
+    font-weight: bold;
+}
+.Sp{
+    font-weight: bolder;
+    font-size: 105%;
+}
+#TA{
+    margin-top: 5%;
+    align-content: center;
+}
+.C{
+    margin-left: 18%;
+}
+.About{
+    background-color :#FFF4E4;
+    border: 1px solid;
+    border-radius: 1rem;
+    box-shadow: 20px 18px 18px 3px rgb(201, 201, 201);
+   
+}
+.H{
+    font-family:SFPRODISPLAYMEDIUM;
+    margin-top: 5%;
+}
+.CardHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Waylimo';
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(121, 121, 121, 0.413);
+}
+ 
+  .card {
+    transition: transform 0.5s ease; /* Smooth transition for the zoom effect */
+  }
+  
+.card:hover {
+    transform: scale(1.1); 
+  }
+  
+.R{
+    padding-top: 3%;
+}
+.Center{
+    margin-top: 2%;
+    font-family:SFPRODISPLAYMEDIUM;
+    font-weight: bold;
+    font-size: larger;
+}
+.Para{
+    padding: 1%;
+    font-family:SFPRODISPLAYMEDIUM;
+    font-size: 110%;
+}
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .Video {
+        height: 30vh;
+    }
+    .Con {
+        border: 1px solid;
+        border-radius: 1rem;
+        box-shadow: 10px 4px 7px 3px rgba(0, 0, 0, 0.3);
+        background-color: #FFF4E4;
+        height: 15rem;
+        margin: 1%;
+    }
+    #TR{
+        height: 3rem;
+        width: 8%;
+        font-family:'SFPRODISPLAYMEDIUM';
+        font-size: 80%;
+        font-weight: bold;
+    }
+    #TA{
+        margin-top: 5%;
+        align-content: center;
+        margin-left: 1%;
+    }
+    .Para{
+        font-size: 80%;
+        padding: 2%;
+    }
+    .container{
+        margin: 1%;
+    }
+    .Center{
+        padding-top: 3%;
+        font-family:SFPRODISPLAYMEDIUM;
+        font-weight: bold;
+        font-size: 85%;
+    }
+    #card{
+        width: 18rem;
+    }
+    .C{
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Video {
+        height: 30vh;
+    }
+    .Con {
+        border: 1px solid;
+        border-radius: 1rem;
+        box-shadow: 10px 4px 7px 3px rgba(0, 0, 0, 0.3);
+        background-color: #FFF4E4;
+        height: 15rem;
+        margin: 1%;
+    }
+    #TR{
+        height: 3rem;
+        width: 8%;
+        font-family:'SFPRODISPLAYMEDIUM';
+        font-size: 80%;
+        font-weight: bold;
+    }
+    #TA{
+        margin-top: 5%;
+        align-content: center;
+        margin-left: 5%;
+    }
+    .Para{
+        font-size: 80%;
+        padding: 2%;
+    }
+    .container{
+        margin: 1%;
+    }
+    .Center{
+        padding-top: 3%;
+        font-family:SFPRODISPLAYMEDIUM;
+        font-weight: bold;
+        font-size: 85%;
+    }
+    #card{
+        width: 13rem;
+        margin: 5%;
+    }
+    .C{
+        margin-left: 8%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .Video {
+        height: 30vh;
+    }
+    .Con {
+        border: 1px solid;
+        border-radius: 1rem;
+        box-shadow: 10px 4px 7px 3px rgba(0, 0, 0, 0.3);
+        background-color: #FFF4E4;
+        height: 15rem;
+        margin: 1%;
+    }
+    #TR{
+        height: 3rem;
+        width: 8%;
+        font-family:'SFPRODISPLAYMEDIUM';
+        font-size: 80%;
+        font-weight: bold;
+    }
+    #TA{
+        margin-top: 5%;
+        align-content: center;
+    }
+    .Para{
+        font-size: 80%;
+        padding: 2%;
+    }
+    .container{
+        margin: 1%;
+    }
+    .Center{
+        padding-top: 3%;
+        font-family:SFPRODISPLAYMEDIUM;
+        font-weight: bold;
+        font-size: 85%;
+    }
+    #card{
+        width: 18rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .Video {
+        height: 30vh;
+    }
+    .Contact {
+        border: 1px solid;
+        border-radius: 1rem;
+        box-shadow: 10px 4px 7px 3px rgba(0, 0, 0, 0.3);
+        background-color: #FFF4E4;
+    }
+    #TR{
+        height: 3rem;
+        width: 6%;
+        font-family:'SFPRODISPLAYMEDIUM';
+        font-size: 80%;
+        font-weight: bold;
+    }
+    #Td{
+        margin-left: 3%;
+    }
+    #TA{
+        margin-top: 3%;
+        align-content: center;
+        margin-left: 0%;
+    }
+    .Para{
+        font-size: 80%;
+        padding: 2%;
+    }
+    .container{
+        margin: 1%;
+    }
+    .Center{
+        padding-top: 3%;
+        font-family:SFPRODISPLAYMEDIUM;
+        font-weight: bold;
+        font-size: 85%;
+    }
+    .con{
+        margin: 1%;
+    }
+    #card{
+        width: 22rem;
+        margin: 5%;
+    }
+    .C{
+        margin-left: 8%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .Video {
+        height: 30vh;
+    }
+    .Contact {
+        border: 1px solid;
+        border-radius: 1rem;
+        box-shadow: 10px 4px 7px 3px rgba(0, 0, 0, 0.3);
+        background-color: #FFF4E4;
+    }
+    #TR{
+        height: 3rem;
+        width: 6%;
+        font-family:'SFPRODISPLAYMEDIUM';
+        font-size: 80%;
+        font-weight: bold;
+    }
+    #Td{
+        margin-left: 3%;
+    }
+    #TA{
+        margin-top: 3%;
+        align-content: center;
+        margin-left: 0%;
+    }
+    .Para{
+        font-size: 80%;
+        padding: 2%;
+    }
+    .container{
+        margin: 1%;
+    }
+    .Center{
+        padding-top: 3%;
+        font-family:SFPRODISPLAYMEDIUM;
+        font-weight: bold;
+        font-size: 85%;
+    }
+    .con{
+        margin: 1%;
+    }
+    #card{
+        width: 20rem;
+        margin: 5%;
+    }
+    .C{
+        margin-left: 8%;
+    }
+}
+
+@font-face {
+    font-family: 'Waylimo';
+    src: local('Waylimo'), url('../fonts/Waylimo.ttf'), format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFPRODISPLAYMEDIUM';
+    src: local('SFPRODISPLAYMEDIUM'), url('../fonts/SFPRODISPLAYMEDIUM.OTF'), format('otf');
+    font-weight: bold;
+    font-style: normal;
+}
