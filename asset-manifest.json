@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Ayyappa-Muramulla/react/static/css/main.07ffb5da.css",
+    "main.js": "/Ayyappa-Muramulla/react/static/js/main.5afe51a6.js",
+    "static/js/453.5e560239.chunk.js": "/Ayyappa-Muramulla/react/static/js/453.5e560239.chunk.js",
+    "static/media/SFPRODISPLAYMEDIUM.OTF": "/Ayyappa-Muramulla/react/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
+    "static/media/Sign Writing.otf": "/Ayyappa-Muramulla/react/static/media/Sign Writing.324bc830a48466451442.otf",
+    "static/media/Waylimo.ttf": "/Ayyappa-Muramulla/react/static/media/Waylimo.5139c7a080301140814a.ttf",
+    "index.html": "/Ayyappa-Muramulla/react/index.html",
+    "main.07ffb5da.css.map": "/Ayyappa-Muramulla/react/static/css/main.07ffb5da.css.map",
+    "main.5afe51a6.js.map": "/Ayyappa-Muramulla/react/static/js/main.5afe51a6.js.map",
+    "453.5e560239.chunk.js.map": "/Ayyappa-Muramulla/react/static/js/453.5e560239.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07ffb5da.css",
+    "static/js/main.5afe51a6.js"
+  ]
+}
